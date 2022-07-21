@@ -1,3 +1,9 @@
+<img src="screenshots/badges/built-with-love.svg" height="28px"/>&nbsp;&nbsp;
+<img src="screenshots/badges/flutter-dart.svg" height="28px" />&nbsp;&nbsp;
+<a href="https://choosealicense.com/licenses/mit/" target="_blank"><img src="screenshots/badges/license-MIT.svg" height="28px" /></a>&nbsp;&nbsp;
+<img src="screenshots/badges/Flutter-3.svg" height="28px" />&nbsp;&nbsp;
+<img src="screenshots/badges/dart-null_safety-blue.svg" height="28px"/>
+
 # BLoC Architecture App
 
 Hello everyone and welcome back!
@@ -6,44 +12,46 @@ This repo is going to serve as a starting project for every application I will b
 
 <b><h2> About the structure of the project </h2></b>
 
+<img align="left" src="screenshots/folder_structure.png"></img>
+
 ```
-        lib/
-        ├── core/
-        │   ├── constants/
-        │   │   └── strings.dart
-        │   ├── exceptions/
-        │   │   └── route_exception.dart
-        │   └── themes/
-        │       └── app_theme.dart
-        ├── data/
-        │   ├── data_providers
-        │   │   └── data_provider.dart
-        │   ├── http/
-        │   │   └── http_client.dart
-        │   ├── models/
-        │   │   └── model.dart
-        │   └── repositories/
-        │       └── repository.dart
-        ├── logic/
-        │   ├── bloc/
-        │   │   └── bloc.dart
-        │   ├── cubit/
-        │   │   └── cubit.dart
-        │   └── debug/
-        │       └── app_bloc_observer.dart
-        ├── presentation/
-        │   ├── router/
-        │   │   └── app_router.dart
-        │   └── screens/
-        │       ├── detail_screen/
-        │       │   ├── widgets/
-        │       │   │   └── detail_widget.dart
-        │       │   └── detail_screen.dart
-        │       └── home_screen/
-        │           ├── widgets/
-        │           │   └── home_widget.dart
-        │           └── home_screen.dart
-        └── main.dart
+    lib/
+    ├── core/
+    │   ├── constants/
+    │   │   └── strings.dart
+    │   ├── exceptions/
+    │   │   └── route_exception.dart
+    │   └── themes/
+    │       └── app_theme.dart
+    ├── data/
+    │   ├── data_providers
+    │   │   └── data_provider.dart
+    │   ├── http/
+    │   │   └── http_client.dart
+    │   ├── models/
+    │   │   └── model.dart
+    │   └── repositories/
+    │       └── repository.dart
+    ├── logic/
+    │   ├── bloc/
+    │   │   └── bloc.dart
+    │   ├── cubit/
+    │   │   └── cubit.dart
+    │   └── debug/
+    │       └── app_bloc_observer.dart
+    ├── presentation/
+    │   ├── router/
+    │   │   └── app_router.dart
+    │   └── screens/
+    │       ├── detail_screen/
+    │       │   ├── widgets/
+    │       │   │   └── detail_widget.dart
+    │       │   └── detail_screen.dart
+    │       └── home_screen/
+    │           ├── widgets/
+    │           │   └── home_widget.dart
+    │           └── home_screen.dart
+    └── main.dart
 ```
 
 This main startup project will contain everything you'll need in order to immediately start developing your bloc-driven application.
