@@ -6,9 +6,11 @@
 
 # BLoC Architecture App
 
-<img align="right" src="screenshots/store_icons/playstore.png" height="110"></img>
+<img align="right" src="screenshots/store_icons/playstore.png" height="200"></img>
 
-This repo is the starting project for every Flutter applications that I have build using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package. For any information on BLoC library, I would strongly suggest you to follow this [documentation](https://bloclibrary.dev/#/architecture).
+This repository imitate the starting project structure for every flutter applications that I have developed using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package for designing the folder structure. For any information on BLoC library I would strongly suggest you to follow this [documentation](https://bloclibrary.dev).
+
+This project contains everything that you will need in order to immediately start developing your bloc-driven application.
 
 <b><h2> About the structure of the project </h2></b>
 
@@ -53,8 +55,6 @@ This repo is the starting project for every Flutter applications that I have bui
     │           └── home_screen.dart
     └── main.dart
 ```
-
-This main startup project will contain everything you'll need in order to immediately start developing your bloc-driven application.
 
 You might notice that some files are just dummy (like api.dart, model.dart).
 They are placed there just for git to take the folder structure into consideration.
