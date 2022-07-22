@@ -8,7 +8,7 @@
 
 <img align="right" src="screenshots/store_icons/playstore.png" height="110"></img>
 
-This repo is going to serve as a starting project for every Flutter applications that I have developed using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package. For any information on BLoC library, I would strongly suggest you to follow this [documentation](https://bloclibrary.dev/#/architecture).
+This repo is mimic the starting project for every Flutter applications that I have developed using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package. For any information on BLoC library, I would strongly suggest you to follow this [documentation](https://bloclibrary.dev/#/architecture).
 
 <b><h2> About the structure of the project </h2></b>
 
