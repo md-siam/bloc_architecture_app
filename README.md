@@ -14,7 +14,7 @@ This project contains everything that you will need in order to immediately star
 
 <b><h2> About the folder structure </h2></b>
 
-<img align="left" src="screenshots/folder_structure_2.png"></img>
+<img align="left" src="screenshots/folder_structure.png"></img>
 
 ```
     lib/
