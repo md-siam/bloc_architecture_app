@@ -8,11 +8,11 @@
 
 <img align="right" src="screenshots/store_icons/playstore.png" height="160"></img>
 
-This repository imitate the starting project structure for every flutter applications that I have developed using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package for designing the folder structure. For any information on BLoC library I would strongly suggest you to follow this [documentation](https://bloclibrary.dev).
+This repository imitate the starting project structure for every flutter applications that I have developed using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package for designing the folder structure. For more information on BLoC library I would strongly suggest you to follow their official [documentation](https://bloclibrary.dev).
 
-This project contains everything that you will need in order to immediately start developing your bloc-driven application.
+This project contains everything that you will need in order to immediately start developing your bloc-driven application. You can also call this folder structure as <b> Layer-first (features inside layers) </b> design.
 
-<b><h2> About the structure of the project </h2></b>
+<b><h2> About the folder structure </h2></b>
 
 <img align="left" src="screenshots/folder_structure.png"></img>
 
