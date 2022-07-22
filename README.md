@@ -6,9 +6,9 @@
 
 # BLoC Architecture App
 
-Hello everyone and welcome back!
+<img align="right" src="screenshots/store_icons/playstore.png" height="110"></img>
 
-This repo is going to serve as a starting project for every application I will build on my <b> BLoC - From Hero to Wizard </b> Tutorial Series on my <b> [Flutterly YouTube Channel](https://youtube.com/c/Flutterly) </b>
+This repo is going to serve as a starting project for every Flutter applications that I have developed using the <b> BLoC </b> package. I am following the official [documentation](https://bloclibrary.dev/#/architecture) of this BLoC package. For any information on BLoC library, I would strongly suggest you to follow this [documentation](https://bloclibrary.dev/#/architecture).
 
 <b><h2> About the structure of the project </h2></b>
 
@@ -24,7 +24,7 @@ This repo is going to serve as a starting project for every application I will b
     │   └── themes/
     │       └── app_theme.dart
     ├── data/
-    │   ├── data_providers
+    │   ├── data_providers/
     │   │   └── data_provider.dart
     │   ├── http/
     │   │   └── http_client.dart
