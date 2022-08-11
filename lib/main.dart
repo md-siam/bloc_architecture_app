@@ -7,9 +7,8 @@ import 'logic/debug/app_bloc_observer.dart';
 import 'presentation/router/app_router.dart';
 
 void main() {
-  BlocOverrides.runZoned(() {
-    AppBlocObserver();
-  });
+  Bloc.observer = AppBlocObserver();
+
   runApp(const MyApp());
 }
 

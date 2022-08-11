@@ -12,14 +12,14 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
-  bloc: ^8.0.3
+  bloc: ^8.1.0
   flutter_bloc: ^8.0.1
   hydrated_bloc: ^8.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
 
 flutter:
   uses-material-design: true
